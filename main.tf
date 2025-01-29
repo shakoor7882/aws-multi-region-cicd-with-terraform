@@ -28,7 +28,6 @@ provider "aws" {
     session_name = "INFRA_BUILD"
   }
 }
-
 # Global CI/CD resources such as IAM roles
 module "global" {
   source          = "./modules/global"
